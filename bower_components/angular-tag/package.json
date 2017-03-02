@@ -1,0 +1,36 @@
+{
+  "name": "angular-tag",
+  "version": "3.0.0",
+  "description": "Angular Tagging, to tag inputs",
+  "main": "angular-tag.js",
+  "scripts": {
+    "test": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theo4u/angular-tag.git"
+  },
+  "keywords": [
+    "tag",
+    "tagging",
+    "angular",
+    "material"
+  ],
+  "author": "Theophilus Omoregbee <theo4u@ymail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-jsclosure": "0.0.1",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html >
+<html lang="en" ng-app="example">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tag Test</title>
+    <!--Dependencies for ngDragDrop-->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-tag/dist/angular-tag.min.js"></script>
+    <link rel="stylesheet" href="bower_components/angular-tag/dist/angular-tag.min.css" />
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-controller="MainCtrl">
+    <button ng-click="getTagData()">Get Data</button>
+    <p ng-init="selectedi=[{text:'fa'}]">Selected: {{selectedi}}</p>
+    <tag-me type="input" theme="material" selected="selectedi" placeholder="your own placeholder" typehead="true" allow-outside-data-set="true" same-input="true">
+    </tag-me>
+    <br>
+</body>
+
+</html>

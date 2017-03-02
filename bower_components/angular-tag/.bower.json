@@ -1,0 +1,50 @@
+{
+  "name": "angular-tag",
+  "description": "Angular Tagging, to tag inputs",
+  "main": [
+    "dist/angular-tag.js",
+    "dist/angular-tag.css"
+  ],
+  "authors": [
+    "Theophilus Omoregbee <theo4u@ymail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "tag",
+    "tagging",
+    "angular",
+    "material"
+  ],
+  "homepage": "https://github.com/theo4u/angular-tag",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "templates",
+    "templates.js",
+    "gulpfile.js",
+    "example.html",
+    ".travis.yml",
+    "npm-debug.log",
+    "angular-tag.js",
+    "angular-tag.css",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-dragdrop": "^1.0.13"
+  },
+  "version": "3.0.0",
+  "_release": "3.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0",
+    "commit": "ee0ba154064043197be5b2d38119a42d8d3737a7"
+  },
+  "_source": "https://github.com/theo4u/angular-tag.git",
+  "_target": "^3.0.0",
+  "_originalSource": "angular-tag",
+  "_direct": true
+}
